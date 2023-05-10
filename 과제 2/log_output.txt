@@ -1,0 +1,30 @@
+[심현섭] Wed May 10 15:33:45 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering b8f8d36
+[심현섭] Wed May 10 15:33:43 2023 +0900 과제 업로드 dc9e79a
+[leejin_rho] Wed May 10 15:28:38 2023 +0900 Update Diagrams_Assign2.mdj cfff474
+[leejin_rho] Wed May 10 15:00:39 2023 +0900 diagramCapture 2ab08e1
+[leejin_rho] Wed May 10 14:48:56 2023 +0900 diagram 수정 810a94d
+[jmd5314] Wed May 10 14:20:45 2023 +0900 communication diagram 수정 5c377bf
+[jmd5314] Wed May 10 11:53:20 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering 91cd3cd
+[jmd5314] Wed May 10 11:53:11 2023 +0900 과제 업로드 66f158e
+[leejin_rho] Wed May 10 11:04:04 2023 +0900 . 2a9372d
+[leejin_rho] Wed May 10 03:53:06 2023 +0900 . d13b47f
+[심현섭] Tue May 9 21:46:37 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering b46821b
+[심현섭] Tue May 9 21:46:34 2023 +0900 개인 역할 분담 양도 8ef158f
+[fearlessdeveloper] Tue May 9 21:43:02 2023 +0900 과제업로드 91d3bd0
+[심현섭] Mon May 8 23:00:45 2023 +0900 개인 UseCaseDiagram, Description 9f4a0f0
+[심현섭] Thu May 4 19:22:00 2023 +0900 과제1 최종 정리 bcdbe4c
+[심현섭] Tue Apr 18 16:27:17 2023 +0900 정리 4283aac
+[심현섭] Mon Apr 10 19:22:17 2023 +0900 과제1 최종 정리 739c50c
+[심현섭] Mon Apr 10 18:10:28 2023 +0900 use case 수정 e36a090
+[leejin_rho] Mon Apr 10 18:07:13 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering 3664302
+[jmd5314] Mon Apr 10 17:52:58 2023 +0900 조믿음 과제 e283c22
+[leejin_rho] Mon Apr 10 17:11:26 2023 +0900 노이진 8f96125
+[fearlessdeveloper] Mon Apr 10 17:07:41 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering b437532
+[fearlessdeveloper] Mon Apr 10 17:07:32 2023 +0900 푸쉬 b790922
+[jmd5314] Mon Apr 10 17:06:18 2023 +0900 조믿음 usecase diagram f2e1e54
+[심현섭] Mon Apr 10 16:48:35 2023 +0900 과제1 업로드 안된 것 정정 a417ede
+[심현섭] Mon Apr 10 15:50:16 2023 +0900 과제 1 정리 d569ebe
+[심현섭] Mon Apr 10 15:49:47 2023 +0900 과제 1 미완성 2b9a0cb
+[심현섭] Thu Apr 6 22:36:31 2023 +0900 회의록 업로드 d6d673b
+[심현섭] Thu Apr 6 22:25:16 2023 +0900 과제 업로드 e9a32bf
+[심현섭] Thu Apr 6 20:13:57 2023 +0900 Initial commit d960df9
