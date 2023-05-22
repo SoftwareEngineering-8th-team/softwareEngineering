@@ -1,5 +1,10 @@
 #include "ApplicationQuery.h"
 
+bool compareApplications(Application app1, Application app2) {
+    return app1.getEmploymentList().getName() < app2.getEmploymentList().getName();
+    
+}
+
 vector<Application> ApplicationQuery::getApplications(){
         string id = g_loginInfo.id;
         vector<Application>* ret = Application::getApplications();
@@ -9,6 +14,8 @@ vector<Application> ApplicationQuery::getApplications(){
                 applications.push_back((* ret)[i]);
             }
         }
+        sort(applications.begin(), applications.end(), compareApplications);
+        
         return applications;
 }
 

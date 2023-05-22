@@ -8,10 +8,16 @@ void SignoutUI::signout(){
 
 string Signout::deleteMember(){
         string id = g_loginInfo.id;
+        if(g_loginInfo.isCompany==true){
+                CompanyMember::deleteMember(id);
+        }
+        else{
+                NormalMember::deleteMember(id);  
+        }
+       
         g_loginInfo.id="";
         g_loginInfo.isCompany=false;
         g_loginInfo.member=NULL;
-        NormalMember::deleteMember(id);
-        CompanyMember::deleteMember(id);
+        
         return id;
 }

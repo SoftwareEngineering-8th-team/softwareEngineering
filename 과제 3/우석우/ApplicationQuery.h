@@ -3,6 +3,7 @@
 #include "Application.h"
 #include <vector>
 #include <string>
+#include <algorithm>
 
 #ifndef __APPLICATIONQUERY__
 #define __APPLICATIONQUERY__
