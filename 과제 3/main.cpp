@@ -1,4 +1,4 @@
-// Çì´õ ¼±¾ğ
+// í—¤ë” ì„ ì–¸
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <vector>
@@ -10,23 +10,23 @@
 #include "LoginUI.h"
 #include "Login.h"
 
-// »ó¼ö ¼±¾ğ
+// ìƒìˆ˜ ì„ ì–¸
 #define MAX_STRING 32
 #define INPUT_FILE_NAME "input.txt"
 #define OUTPUT_FILE_NAME "output.txt"
 
 using namespace std;
 
-// ÇÔ¼ö ¼±¾ğ
+// í•¨ìˆ˜ ì„ ì–¸
 void doTask();
 void join();
 void program_exit();
 
-// º¯¼ö ¼±¾ğ
+// ë³€ìˆ˜ ì„ ì–¸
 FILE* in_fp, *out_fp;
 
-vector <User> user; //ÀüÃ¼ È¸¿ø ¸®½ºÆ®
-User* nowUser = new User(); //ÇöÀç ·Î±×ÀÎÇÑ È¸¿ø
+vector <User> user; //ì „ì²´ íšŒì› ë¦¬ìŠ¤íŠ¸
+User* nowUser = new User(); //í˜„ì¬ ë¡œê·¸ì¸í•œ íšŒì›
 
 
 int main()
@@ -41,26 +41,26 @@ int main()
 
 void doTask() {
 
-	// ¸Ş´º ÆÄ½ÌÀ» À§ÇÑ level ±¸ºĞÀ» À§ÇÑ º¯¼ö
+	// ë©”ë‰´ íŒŒì‹±ì„ ìœ„í•œ level êµ¬ë¶„ì„ ìœ„í•œ ë³€ìˆ˜
 	int menu_level_1 = 0, menu_level_2 = 0;
 	int is_program_exit = 0;
 
 	while (!is_program_exit) {
-		// ÀÔ·ÂÆÄÀÏ¿¡¼­ ¸Ş´º ¼ıÀÚ 2°³¸¦ ÀĞ±â
+		// ì…ë ¥íŒŒì¼ì—ì„œ ë©”ë‰´ ìˆ«ì 2ê°œë¥¼ ì½ê¸°
 		fscanf(in_fp, "%d %d", &menu_level_1, &menu_level_2);
 
-		// ¸Ş´º ±¸ºĞ ¹× ÇØ´ç ¿¬»ê ¼öÇà
+		// ë©”ë‰´ êµ¬ë¶„ ë° í•´ë‹¹ ì—°ì‚° ìˆ˜í–‰
 		switch (menu_level_1) {
 		case 1: {
 			switch (menu_level_2) {
-			case 1: {  // 1.1 È¸¿ø°¡ÀÔ
+			case 1: {  // 1.1 íšŒì›ê°€ì…
 				SignUpUI* signUpUI = new SignUpUI();
-				signUpUI->signUp(in_fp, out_fp, user);
+				
 				break;
 			}
-			case 2: {  // 1.2 È¸¿øÅ»Åğ
+			case 2: {  // 1.2 íšŒì›íƒˆí‡´
 				SignOutUI* signOutUI = new SignOutUI();
-				signOutUI->signOut(out_fp, user, nowUser, nowUserIndex);
+				;
 				break;
 			}
 			}
@@ -68,14 +68,14 @@ void doTask() {
 		}
 		case 2: {
 			switch (menu_level_2) {
-			case 1: {  // 2.1 ·Î±×ÀÎ
+			case 1: {  // 2.1 ë¡œê·¸ì¸
 				LoginUI* loginUI = new LoginUI();
-				loginUI->login(in_fp, out_fp, user, nowUser, nowUserIndex);
+				
 				break;
 			}
-			case 2: {  // 2.2 ·Î±×¾Æ¿ô
+			case 2: {  // 2.2 ë¡œê·¸ì•„ì›ƒ
 				LogoutUI* logoutUI = new LogoutUI();
-				logoutUI->logout(out_fp, nowUser);
+				
 				break;
 			}
 			}
@@ -121,7 +121,7 @@ void doTask() {
 			break;
 		}
 		case 6: {
-			// 6.1 Á¾·á 
+			// 6.1 ì¢…ë£Œ 
 			program_exit();
 			is_program_exit = 1;
 			break;
@@ -133,5 +133,5 @@ void doTask() {
 
 
 void program_exit() {
-	fprintf(out_fp, "6.1. Á¾·á");
+	fprintf(out_fp, "6.1. ì¢…ë£Œ");
 }
