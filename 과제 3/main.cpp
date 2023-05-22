@@ -2,7 +2,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <vector>
-#include "User.h"
+#include "Member.h"
 #include "SignUpUI.h"
 #include "SignUp.h"
 #include "SignOutUI.h"
@@ -25,8 +25,8 @@ void program_exit();
 // 변수 선언
 FILE* in_fp, *out_fp;
 
-vector <User> user; //전체 회원 리스트
-User* nowUser = new User(); //현재 로그인한 회원
+vector <Member> member; //전체 회원 리스트
+Member* nowMem = new Member(); //현재 로그인한 회원
 
 
 int main()
