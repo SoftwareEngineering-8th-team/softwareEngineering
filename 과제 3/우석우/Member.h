@@ -1,13 +1,13 @@
-#ifndef __MEMBER__
-#define __MEMBER__
-
-using namespace std;
-
-
 #include <iostream>
 #include <string>
 #include <vector>
 #include <algorithm>
+#include "file.h"
+
+#ifndef __MEMBER__
+#define __MEMBER__
+
+using namespace std;
 
 
 
@@ -19,9 +19,6 @@ private:
     string address;
     string id;
     string password;
-
-
-
     
 public:
     /*
@@ -38,13 +35,6 @@ public:
     void setNumber(int number){this->number=number;}
     void setId(string id){this->id=id;}
     void setPassword(string password){this->password=password;}
-
-    
-
-
-
-
-
 };
 
 #endif

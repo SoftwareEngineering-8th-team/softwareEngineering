@@ -1,7 +1,10 @@
+#include <string>
+#include "file.h"
+#include "Session.h"
+#include "file.h"
+#include <iostream>
 #ifndef __LOGOUT__
 #define __LOGOUT__
-
-#include <string>
 
 using namespace std;
 
@@ -10,7 +13,7 @@ using namespace std;
 
 class Logout { // 컨트롤 클래스
 public:
-    string logout(); //로그아웃을 수행하는 함수, ID를 리턴
+    string logout();
 };
 
 
@@ -20,8 +23,7 @@ private:
 
 public:
    
-    void logout(); // 로그아웃을 수행하느 함수, ID를 리턴
+   void logout();
+
 };
-
-
 #endif 

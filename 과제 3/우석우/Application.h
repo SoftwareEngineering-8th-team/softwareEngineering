@@ -1,57 +1,29 @@
-#ifndef __APPLICATION__
-#define __APPLICATION__
-
-using namespace std;
-#include <vector> 
 #include "NormalMember.h"
 #include "EmploymentList.h"
-
-class Application{
+#ifndef __APPLICATION__
+#define __APPLICATION__
+#include <vector>
+using namespace std;
+class Application {
 private:
     static vector<Application> applications;
-    NormalMember* normalMember;
-    EmploymentList* employmentList;
-public:
-    void setNormalMember(NormalMember* normalMember){
-        this->normalMember=normalMember;
-    }
-    void setEmploymentList(EmploymentList* employmentList){
-        this->employmentList = employmentList;
-    }
-    NormalMember* getNormalMember(){
-        return this->normalMember;
-    }
-    EmploymentList* getEmploymentList(){
-        return this->employmentList;
-    }
+    NormalMember normalMember;
+    EmploymentList employmentList;
 
-    static Application applyTo(NormalMember* normalMember,EmploymentList* employmentList){
-        Application* application = new Application();
-        application->setEmploymentList(employmentList);
-        application->setNormalMember(normalMember);
-        Application::applications.push_back(*application);
-        return (* application);
-    }
-    static vector<Application>* getApplications(){
-        return &applications;
-    }
-    static Application deleteApplication(int number, string id) {
-        Application deletedApplication;
-        for (auto it = applications.begin(); it != applications.end(); ) {
-            if (it->getNormalMember()->getId() == id && 
-                it->getEmploymentList()->getMember()->getNumber() == number) {
-                deletedApplication = *it;
-                it = applications.erase(it);
-                return deletedApplication;
-            } else {
-                ++it;
-            }
-        }
-        return deletedApplication;
-    }
-    
-    
+public:
+    void setNormalMember(NormalMember normalMember);
+    void setEmploymentList(EmploymentList employmentList);
+    NormalMember getNormalMember();
+    EmploymentList getEmploymentList();
+
+    // 신규 지원서를 생성하여 applications에 추가하는 함수
+    static Application applyTo(NormalMember normalMember, EmploymentList employmentList);
+
+    // 현재 저장된 모든 지원서를 반환하는 함수
+    static vector<Application>* getApplications();
+
+    // 주어진 번호와 아이디에 해당하는 지원서를 삭제하고 삭제된 지원서를 반환하는 함수
+    static Application deleteApplication(int number, string id);
 };
 
-vector<Application> Application::applications;
 #endif
