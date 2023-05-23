@@ -45,7 +45,7 @@ void doTask(){
     EmploymentQueryUI employmentQueryUI;
     EmploymentApplyUI employmentApplyUI;
     ApplicationQueryUI applicationQueryUI;
-    ApplyCancelUI applicationCalcelUI;
+    ApplyCancelUI applicationCancelUI;
     NormalStatisticQueryUI normalStatisticQueryUI;
     CompanyStatisticQueryUI companyStatisticQueryUI;
 
@@ -140,7 +140,7 @@ void doTask(){
                     {
                         int businessNum=0;
                         fscanf(in_fp,"%d",&businessNum);
-                        applicationCalcelUI.cancelApply(businessNum);
+                        applicationCancelUI.cancelApply(businessNum);
                         break;
                     }
 
