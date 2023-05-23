@@ -1,6 +1,7 @@
 #include "Session.h"
 #include "EmploymentList.h"
 #include <vector> 
+#include <algorithm> 
 #include "file.h"
 #ifndef __NORMALEMPLOYMENTQUERY__
 #define __NORMALEMPLOYMENTQUERY__
