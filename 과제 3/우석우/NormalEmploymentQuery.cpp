@@ -2,7 +2,7 @@
 
 // 회사이름을 오름차순으로 불러오는 함수
 bool compareByName(const EmploymentList& emp1, const EmploymentList& emp2) {
-    return emp1.getEmploymentList().getName() < emp2.getEmploymentList().getName();
+        return emp1.getEmploymentList().getName() < emp2.getEmploymentList().getName();
 };
 
 // 리스트를 불러와 회사이름 오름차순으로 정렬한다.
@@ -15,6 +15,7 @@ vector<EmploymentList> NormalEmploymentQuery::searchInfo(){
         }
 
         sort(emp.begin(), emp.end(), compareByName);
+
         return emp;       
 }
 
