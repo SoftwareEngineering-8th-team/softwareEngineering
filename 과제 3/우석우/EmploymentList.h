@@ -12,6 +12,7 @@ private:
     int applicationNum;
     string dueDate;
     CompanyMember member;
+    CompanyMember id;
 
 public:
     string getName();
@@ -19,6 +20,7 @@ public:
     int getApplicationNum();
     string getDueDate();
     CompanyMember getMember();
+    CompanyMember getId();
 
     void setDueDate(string dueDate);
     void setCompanyName(string companyName);

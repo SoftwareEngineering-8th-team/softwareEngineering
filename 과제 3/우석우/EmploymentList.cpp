@@ -22,6 +22,10 @@ CompanyMember EmploymentList::getMember() {
     return this->member;
 }
 
+CompanyMember EmploymentList::getId() {
+    return this->id;
+}
+
 void EmploymentList::setDueDate(string dueDate) {
     this->dueDate = dueDate;
 }
