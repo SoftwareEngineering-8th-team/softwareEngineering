@@ -52,7 +52,7 @@
 														"$ref": "AAAAAAGIAXqLDj7F4Ao="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 24.45703125,
 													"top": 5,
 													"width": 53,
 													"height": 13,
@@ -67,7 +67,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 14.45703125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -7355,9 +7355,9 @@
 														"$ref": "AAAAAAGIBPdfItYJVBc="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 24.45703125,
 													"top": 13,
-													"width": 120.8818359375,
+													"width": 122.0625,
 													"height": 13,
 													"text": "통계 정보 조회(회사)"
 												},
@@ -7370,7 +7370,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 14.45703125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -11419,7 +11419,7 @@
 								"reference": {
 									"$ref": "AAAAAAGIONEdR3gmJik="
 								},
-								"multiplicity": "1"
+								"multiplicity": "1..*"
 							},
 							"end2": {
 								"_type": "UMLAssociationEnd",
@@ -12478,7 +12478,7 @@
 										"$ref": "AAAAAAGIRDwiYWlCy2k="
 									},
 									"edgePosition": 2,
-									"text": "1"
+									"text": "1..*"
 								},
 								{
 									"_type": "EdgeLabelView",
