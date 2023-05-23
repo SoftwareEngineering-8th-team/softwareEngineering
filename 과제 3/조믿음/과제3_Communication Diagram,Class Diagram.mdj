@@ -52,8 +52,8 @@
 														"$ref": "AAAAAAGIAXqLDj7F4Ao="
 													},
 													"font": "Arial;13;0",
-													"left": 24.45703125,
-													"top": 5,
+													"left": 48.72998046875,
+													"top": 37,
 													"width": 53,
 													"height": 13,
 													"text": "지원취소"
@@ -65,14 +65,16 @@
 														"$ref": "AAAAAAGIAXqLDj7F4Ao="
 													},
 													"font": "Arial;13;1",
-													"left": 5,
-													"top": 5,
-													"width": 14.45703125,
+													"left": 29,
+													"top": 37,
+													"width": 14.72998046875,
 													"height": 13,
 													"text": "sd"
 												}
 											],
 											"font": "Arial;13;0",
+											"left": 24,
+											"top": 32,
 											"width": 865,
 											"height": 529,
 											"nameLabel": {
@@ -6618,6 +6620,55 @@
 											"propertyLabel": {
 												"$ref": "AAAAAAGIBSrR4bY8DJE="
 											}
+										},
+										{
+											"_type": "UMLFrameView",
+											"_id": "AAAAAAGIR9AZUQSoPj8=",
+											"_parent": {
+												"$ref": "AAAAAAGIAcNZAqX0PGs="
+											},
+											"model": {
+												"$ref": "AAAAAAGIAcNZAqX0PGs="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGIR9AZUQSpZU8=",
+													"_parent": {
+														"$ref": "AAAAAAGIR9AZUQSoPj8="
+													},
+													"font": "Arial;13;0",
+													"left": 48.72998046875,
+													"top": 13,
+													"width": 120.8818359375,
+													"height": 13,
+													"text": "통계 정보 조회(일반)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGIR9AZUQSqapA=",
+													"_parent": {
+														"$ref": "AAAAAAGIR9AZUQSoPj8="
+													},
+													"font": "Arial;13;1",
+													"left": 29,
+													"top": 13,
+													"width": 14.72998046875,
+													"height": 13,
+													"text": "sd"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 24,
+											"top": 8,
+											"width": 785,
+											"height": 600,
+											"nameLabel": {
+												"$ref": "AAAAAAGIR9AZUQSpZU8="
+											},
+											"frameTypeLabel": {
+												"$ref": "AAAAAAGIR9AZUQSqapA="
+											}
 										}
 									],
 									"sequenceNumbering": "custom"
@@ -7355,9 +7406,9 @@
 														"$ref": "AAAAAAGIBPdfItYJVBc="
 													},
 													"font": "Arial;13;0",
-													"left": 24.45703125,
-													"top": 13,
-													"width": 122.0625,
+													"left": 56.72998046875,
+													"top": 21,
+													"width": 120.8818359375,
 													"height": 13,
 													"text": "통계 정보 조회(회사)"
 												},
@@ -7368,15 +7419,16 @@
 														"$ref": "AAAAAAGIBPdfItYJVBc="
 													},
 													"font": "Arial;13;1",
-													"left": 5,
-													"top": 13,
-													"width": 14.45703125,
+													"left": 37,
+													"top": 21,
+													"width": 14.72998046875,
 													"height": 13,
 													"text": "sd"
 												}
 											],
 											"font": "Arial;13;0",
-											"top": 8,
+											"left": 32,
+											"top": 16,
 											"width": 905,
 											"height": 625,
 											"nameLabel": {
