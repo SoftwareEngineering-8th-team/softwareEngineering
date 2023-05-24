@@ -2,7 +2,7 @@
 
 /*
     함수 이름 : EmploymentQuery::searchInfo
-    기능 : EmploymentList로부터 데이터를 호출하여 id가 같은 경우 emp에 반환한다.
+    기능 : EmploymentList로부터 데이터를 참조하여 id가 같은 경우 emp에 반환한다.
     전달 인자 : 없음
     반환 인자 : emp
 */
