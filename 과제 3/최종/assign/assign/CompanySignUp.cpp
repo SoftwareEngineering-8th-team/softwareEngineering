@@ -8,8 +8,8 @@
 	전달 인자 : 이름, 사업번호, 아이디, 패스워드
 	반환 인자 : NormalMember
 */
-CompanyMember CompanySignUp::newMember(string name, int regiNum, string id, string password) {
-	return CompanyMember::newMember(name, regiNum, id, password);
+CompanyMember CompanySignUp::newMember(string name, int busiNum, string id, string password) {
+	return CompanyMember::newMember(name, busiNum, id, password);
 }
 
 
@@ -19,8 +19,8 @@ CompanyMember CompanySignUp::newMember(string name, int regiNum, string id, stri
 	전달 인자 : 이름, 주민번호, 아이디, 패스워드
 	반환 인자 : 없음
 */
-void CompanySignUpUI::signUp(string name, int regiNum, string id, string password) {
-	CompanyMember member = signup->newMember(name, regiNum, id, password);
+void CompanySignUpUI::signUp(string name, int busiNum, string id, string password) {
+	CompanyMember member = signup->newMember(name, busiNum, id, password);
 	fprintf(out_fp, "%s %d %s %s\n", member.getName().c_str(), member.getNumber(), member.getId().c_str(), member.getPassword().c_str());
 
 }
