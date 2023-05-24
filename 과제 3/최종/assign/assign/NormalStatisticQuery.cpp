@@ -1,7 +1,7 @@
 #include "NormalStatisticQuery.h"
 /*
     함수 이름 : NormalStatisticQuery::calculateStatistic
-    기능 : 지원한 지원정보의 지원횟수를 계산해 업무별 지원횟수를 반환해줌
+    기능 : Application클래스의 getApplications()함수를 호출하여, 지원한 지원정보의 지원횟수를 계산해 업무별 지원횟수를 반환해준다.
     전달 인자 : 없음
     반환 인자 : unordered_map<string,int>
 */
@@ -26,7 +26,7 @@ unordered_map<string,int> NormalStatisticQuery::calculateStatistic(){
 }
 /*
     함수 이름 : NormalStatisticQueryUI::checkStatistic
-    기능 : 지원한 지원정보에 대해 업무별 지원 횟수를 출력해줌
+    기능 : NormalStatisticQuery 클래스의 calculateStatistic()함수를 호출하고, 지원한 지원정보에 대한 업무별 지원 횟수를 파일에 써준다.
     전달 인자 : 없음
     반환 인자 : 없음
 */
