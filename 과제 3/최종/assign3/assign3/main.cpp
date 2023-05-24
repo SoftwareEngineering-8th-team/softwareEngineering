@@ -86,12 +86,12 @@ void doTask(){
                 switch (menu_level_2){
                     case 1: 
                     {                      
-						char id[50];
-						char password[50];
-						fscanf(in_fp, "%s %s", id, password);
+			char id[50];
+			char password[50];
+			fscanf(in_fp, "%s %s", id, password);
 
-						loginUI.login(string(id), string(password));
-						break;
+			loginUI.login(string(id), string(password));
+			break;
                     }
                     case 2:
                     {
@@ -167,7 +167,7 @@ void doTask(){
             case 6:
                 if (menu_level_2 == 1){
                     is_program_exit = 1;
-					fprintf(out_fp, "6.1.1 ¡æ∑·\n");
+					fprintf(out_fp, "6.1.1 √Å¬æ¬∑√°\n");
                 }
                 break; // case 6: external switch statement end
         }
