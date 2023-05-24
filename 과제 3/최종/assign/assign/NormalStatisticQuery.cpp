@@ -3,7 +3,7 @@
     함수 이름 : NormalStatisticQuery::calculateStatistic
     기능 : Application클래스의 getApplications()함수를 호출하여, 지원한 지원정보의 지원횟수를 계산해 업무별 지원횟수를 반환해준다.
     전달 인자 : 없음
-    반환 인자 : unordered_map<string,int>
+    반환 인자 : workValues
 */
 unordered_map<string,int> NormalStatisticQuery::calculateStatistic(){
         unordered_map<string,int> workValues;

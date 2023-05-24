@@ -3,7 +3,7 @@
     함수 이름 : CompanyStatisticQuery::calculateStatistic
     기능 : EmploymentList 클래스의 getEmploymentList()함수를 호출하여, 등록한 모든 채용정보의 지원자수를 계산해 업무별 지원자수를 반환해준다.
     전달 인자 : 없음
-    반환 인자 : unordered_map<string,int>
+    반환 인자 : workValues
 */
 unordered_map<string, int> CompanyStatisticQuery::calculateStatistic(){
         vector<EmploymentList>  empLists;

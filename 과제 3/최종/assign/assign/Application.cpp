@@ -27,12 +27,23 @@ Application Application::applyTo(NormalMember normalMember, EmploymentList emplo
     return application;
 }
 
-// 현재 저장된 모든 지원서를 반환하는 함수
+/*
+    함수 이름 : Application::getApplications()
+    기능 : 현재 저장된 모든 지원정보를 반환한다.
+    전달 인자 : 없음
+    반환 인자 : applications
+*/
 vector<Application>* Application::getApplications() {
     return &applications;
 }
 
 // 주어진 번호와 아이디에 해당하는 지원서를 삭제하고 삭제된 지원서를 반환하는 함수
+/*
+    함수 이름 : Application::deleteApplication()
+    기능 : 전달받은 인자들이 해당하는 지원서를 삭제하고 삭제된 지원정보를 반환한다.
+    전달 인자 : number, id
+    반환 인자 : deleteApplication
+*/
 Application Application::deleteApplication(int number, string id) {
     Application deletedApplication;
     for (auto it = applications.begin(); it != applications.end(); ) {
