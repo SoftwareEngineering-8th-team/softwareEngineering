@@ -10,7 +10,7 @@ private:
     static vector<NormalMember> normalMembers;
 
 public:
-    static NormalMember newMember(string companyName, int registrationNum, string id, string password);
+    static NormalMember newMember(string name, int registrationNum, string id, string password);
     static vector<NormalMember>* getNormalMembers();
     static void deleteMember(string id);
 };

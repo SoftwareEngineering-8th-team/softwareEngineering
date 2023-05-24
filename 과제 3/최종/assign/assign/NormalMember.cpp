@@ -10,9 +10,9 @@ vector<NormalMember> NormalMember::normalMembers;
 	전달 인자 : 이름, 주민번호, 아이디, 패스워드
 	반환 인자 : normalMember
 */
-NormalMember NormalMember::newMember(string companyName, int registrationNum, string id, string password) {
+NormalMember NormalMember::newMember(string name, int registrationNum, string id, string password) {
     NormalMember normalMember;
-    normalMember.setName(companyName);
+    normalMember.setName(name);
     normalMember.setNumber(registrationNum);
     normalMember.setId(id);
     normalMember.setPassword(password);
