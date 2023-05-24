@@ -5,7 +5,10 @@
 #include "file.h"
 #ifndef __COMPANYMEMBER__
 #define __COMPANYMEMBER__
+
 using namespace std;
+
+
 
 class CompanyMember : public Member {
 private:

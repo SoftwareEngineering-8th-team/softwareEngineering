@@ -1,5 +1,8 @@
 #include "ApplyCancel.h"
 
+
+
+
 Application ApplyCancel::applyCancel(int businessNumber){
         Application application = Application::deleteApplication(businessNumber,g_loginInfo.id);
         return application;

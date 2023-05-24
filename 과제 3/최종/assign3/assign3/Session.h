@@ -3,7 +3,6 @@
 #ifndef __SESSION__
 #define __SESSION__
 
-
 using namespace std;
 
 

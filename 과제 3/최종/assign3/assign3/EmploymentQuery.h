@@ -4,6 +4,8 @@
 #include "file.h"
 #ifndef __EMPLOYMENTQUERY__
 #define __EMPLOYMENTQUERY__
+
+
 class EmploymentQuery{
 public:
     vector<EmploymentList> searchInfo();

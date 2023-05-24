@@ -5,6 +5,7 @@
 #define __NORMALMEMBER__
 
 using namespace std;
+
 class NormalMember : public Member {
 private:
     static vector<NormalMember> normalMembers;

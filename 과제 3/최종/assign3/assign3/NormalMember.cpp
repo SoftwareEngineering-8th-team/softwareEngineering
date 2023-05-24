@@ -1,5 +1,8 @@
 #include "NormalMember.h"
 
+
+
+
 vector<NormalMember> NormalMember::normalMembers;
 
 NormalMember NormalMember::newMember(string companyName, int registrationNum, string id, string password) {

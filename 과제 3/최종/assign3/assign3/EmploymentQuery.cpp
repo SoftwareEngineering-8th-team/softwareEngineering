@@ -1,5 +1,8 @@
 #include "EmploymentQuery.h"
 
+
+
+
 vector<EmploymentList>  EmploymentQuery::searchInfo(){
         vector<EmploymentList> emp;
         vector<EmploymentList>* getList = EmploymentList::getEmploymentList();

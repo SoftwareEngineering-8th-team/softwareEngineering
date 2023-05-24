@@ -1,5 +1,8 @@
 #include "CompanySignUp.h"
 
+
+
+
 CompanyMember CompanySignUp::newMember(string name, int regiNum, string id, string password){
         return CompanyMember::newMember(name,regiNum,id,password);
 }

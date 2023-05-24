@@ -20,7 +20,10 @@
 #include "NormalStatisticQuery.h"
 #include "Signout.h"
 #include <string>
+
 using namespace std;
+
+
 void doTask();
 
 int main(){
@@ -82,13 +85,13 @@ void doTask(){
             case 2:
                 switch (menu_level_2){
                     case 1: 
-                    {
-                        char id[50];
-                        char password[50];
-                        fscanf(in_fp,"%s %s",id,password);
-                        
-                        loginUI.login(string(id),string(password));
-                        break;
+                    {                      
+						char id[50];
+						char password[50];
+						fscanf(in_fp, "%s %s", id, password);
+
+						loginUI.login(string(id), string(password));
+						break;
                     }
                     case 2:
                     {
@@ -173,5 +176,6 @@ void doTask(){
         if (menu_level_1 == 6 && menu_level_2 == 1){
             is_program_exit = 1;
         }
-    }
+
+    } 
 }

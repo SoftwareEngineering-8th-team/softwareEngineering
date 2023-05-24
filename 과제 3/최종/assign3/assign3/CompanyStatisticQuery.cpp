@@ -1,6 +1,8 @@
 #include "CompanyStatisticQuery.h"
 
 
+
+
 unordered_map<string, int> CompanyStatisticQuery::calculateStatistic(){
         vector<EmploymentList>  empLists;
         vector<EmploymentList>* retEmp = EmploymentList::getEmploymentList();

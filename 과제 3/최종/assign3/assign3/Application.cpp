@@ -1,5 +1,8 @@
 #include "Application.h"
 
+
+
+
 vector<Application> Application::applications;
 
 void Application::setNormalMember(NormalMember normalMember) {

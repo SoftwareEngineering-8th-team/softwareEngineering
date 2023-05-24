@@ -1,5 +1,8 @@
 #include "NormalStatisticQuery.h"
 
+
+
+
 unordered_map<string,int> NormalStatisticQuery::calculateStatistic(){
         unordered_map<string,int> workValues;
         vector<Application> applications;

@@ -10,7 +10,6 @@ using namespace std;
 
 
 
-
 class Logout { // 컨트롤 클래스
 public:
     string logout();

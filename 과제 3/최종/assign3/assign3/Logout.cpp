@@ -1,5 +1,8 @@
 #include "Logout.h"
 
+
+
+
 string Logout::logout() {
     g_loginInfo.isCompany = false;
     string temp = g_loginInfo.id;

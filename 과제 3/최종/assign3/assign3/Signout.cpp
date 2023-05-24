@@ -1,4 +1,8 @@
 #include "Signout.h"
+
+
+
+
 void SignoutUI::signout(){
         string id = signoutCtrl->deleteMember();
         fprintf(out_fp,"1.2. 회원탈퇴\n");

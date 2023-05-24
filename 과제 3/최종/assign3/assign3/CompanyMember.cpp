@@ -1,5 +1,8 @@
 #include "CompanyMember.h"
 
+
+
+
 vector<CompanyMember> CompanyMember::companyMembers;
 
 CompanyMember CompanyMember::newMember(string companyName, int businessNumber, string id, string password) {

@@ -4,6 +4,8 @@
 #include "file.h"
 #ifndef __EMPLOYMENTREGISTER__
 #define __EMPLOYMENTREGISTER__
+
+
 class EmploymentRegister{
 public:
     EmploymentList registerApply(string work,int applicationNum,string dueDate);

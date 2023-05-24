@@ -1,9 +1,14 @@
 #include <string>
 #include "CompanyMember.h"
 #include "file.h"
+
+
 #ifndef __COMPANYSIGNUP__
 #define __COMPANYSIGNUP__
+
 using namespace std;
+
+
 class CompanySignUp{
 public:
     CompanyMember newMember(string name, int regiNum, string id, string password);

@@ -7,7 +7,9 @@
 
 #ifndef __APPLICATIONQUERY__
 #define __APPLICATIONQUERY__
+
 using namespace std;
+
 
 class ApplicationQuery{
 public:

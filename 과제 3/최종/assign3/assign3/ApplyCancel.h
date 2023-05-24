@@ -4,6 +4,8 @@
 #include "file.h"
 #ifndef __APPLYCANCEL__
 #define __APPLYCANCEL__
+
+
 class ApplyCancel{
 public:
     Application applyCancel(int businessNumber);

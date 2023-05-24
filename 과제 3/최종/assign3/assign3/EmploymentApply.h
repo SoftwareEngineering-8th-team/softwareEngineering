@@ -7,7 +7,10 @@
 #include <algorithm>
 #ifndef __EMPLOYMENTAPPLY__
 #define __EMPLOYMENTAPPLY__
+
 using namespace std;
+
+
 class EmploymentApplyUI;
 
 

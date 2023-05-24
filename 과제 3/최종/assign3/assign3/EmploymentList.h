@@ -3,7 +3,10 @@
 #include "CompanyMember.h"
 #ifndef __EMPLOYMENTLIST__
 #define __EMPLOYMENTLIST__
+
 using namespace std;
+
+
 class EmploymentList {
 private:
     static vector<EmploymentList> employmentList;

@@ -1,4 +1,8 @@
 #include "NormalSignUp.h"
+
+
+
+
 NormalMember NormalSignUp::newMember(string name, int regiNum, string id, string password){
         return NormalMember::newMember(name,regiNum,id,password);
 }

@@ -1,5 +1,8 @@
 #include "ApplicationQuery.h"
 
+
+
+
 bool compareApplications(Application app1, Application app2) {
     return app1.getEmploymentList().getName() < app2.getEmploymentList().getName();
     

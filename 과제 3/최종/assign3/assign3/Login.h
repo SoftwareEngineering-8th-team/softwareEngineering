@@ -6,12 +6,16 @@
 #include <iostream>
 #ifndef __LOGIN__
 #define __LOGIN__
+
 using namespace std;
+
+
 class Login{
 
 public:
     Member login(string id, string password);
 };
+
 class LoginUI{
 private:
     Login* loginCntl = new Login();

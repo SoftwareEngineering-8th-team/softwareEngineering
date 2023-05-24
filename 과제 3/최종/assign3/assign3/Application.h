@@ -3,7 +3,10 @@
 #ifndef __APPLICATION__
 #define __APPLICATION__
 #include <vector>
+
 using namespace std;
+
+
 class Application {
 private:
     static vector<Application> applications;

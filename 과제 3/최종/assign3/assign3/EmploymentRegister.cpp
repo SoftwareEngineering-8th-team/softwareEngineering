@@ -1,4 +1,8 @@
 #include "EmploymentRegister.h"
+
+
+
+
 EmploymentList EmploymentRegister::registerApply(string work,int applicationNum,string dueDate){
             CompanyMember companyMember = (*(CompanyMember *)g_loginInfo.member);
             string companyName = companyMember.getName();
