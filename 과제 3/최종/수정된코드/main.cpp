@@ -18,6 +18,7 @@
 #include "NormalMember.h"
 #include "NormalStatisticQuery.h"
 #include "Signout.h"
+#include <locale.h>
 #include <string>
 using namespace std;
 void doTask();
@@ -27,7 +28,8 @@ int main(){
     g_loginInfo.isCompany=false;
     g_loginInfo.member=NULL;
     in_fp = fopen(INPUT_FILE_NAME, "r+");
-    out_fp = fopen(OUTPUT_FILE_NAME, "w+, ccs=UTF-8");
+    out_fp = fopen(OUTPUT_FILE_NAME, "w+");
+    setlocale(LC_ALL, "ko_KR.UTF-8");
     doTask();
 
     return 0;
