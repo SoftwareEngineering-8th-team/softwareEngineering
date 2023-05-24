@@ -1,5 +1,10 @@
 #include "NormalStatisticQuery.h"
-
+/*
+    함수 이름 : NormalStatisticQuery::calculateStatistic
+    기능 : 지원한 지원정보의 지원횟수를 계산해 업무별 지원횟수를 반환해줌
+    전달 인자 : 없음
+    반환 인자 : unordered_map<string,int>
+*/
 unordered_map<string,int> NormalStatisticQuery::calculateStatistic(){
         unordered_map<string,int> workValues;
         vector<Application> applications;
@@ -19,6 +24,12 @@ unordered_map<string,int> NormalStatisticQuery::calculateStatistic(){
         }
         return workValues;
 }
+/*
+    함수 이름 : NormalStatisticQueryUI::checkStatistic
+    기능 : 지원한 지원정보에 대해 업무별 지원 횟수를 출력해줌
+    전달 인자 : 없음
+    반환 인자 : 없음
+*/
 void NormalStatisticQueryUI::checkStatistic(){
         unordered_map<string,int> workValues = normalStatisticQuery->calculateStatistic();
         fprintf(out_fp,"5.1. 지원 정보 통계\n");
