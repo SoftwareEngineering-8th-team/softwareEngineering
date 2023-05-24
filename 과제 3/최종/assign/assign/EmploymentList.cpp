@@ -42,6 +42,12 @@ void EmploymentList::setCompanyMember(CompanyMember member) {
     this->member = member;
 }
 
+/*
+    í•¨ìˆ˜ ì´ë¦„ : EmploymentList::registerApply
+    ê¸°ëŠ¥ : ì—…ë¬´, ì§€ì› ìˆ˜, ë§Œê¸°ì¼, íšŒì‚¬ì´ë¦„, íšŒì‚¬ì¸ì›ì„ employmentListì— ë“±ë¡í•˜ë©° ë°˜í™˜í•œë‹¤.
+    ì „ë‹¬ ì¸ì : work, applicationNum, dueDate, companyName, member
+    ë°˜í™˜ ì¸ì : employmentList
+*/
 EmploymentList EmploymentList::registerApply(string work, int applicationNum, string dueDate, string companyName,CompanyMember member) {
     EmploymentList employmentList;
     employmentList.setWork(work);
@@ -51,11 +57,12 @@ EmploymentList EmploymentList::registerApply(string work, int applicationNum, st
     EmploymentList::employmentList.push_back(employmentList);
     return employmentList;
 }
+
 /*
-    ÇÔ¼ö ÀÌ¸§ : EmploymentList::getEmploymentList()
-    ±â´É : ÇöÀç µî·ÏµÈ ¸ğµç Ã¤¿ëÁ¤º¸¸¦ ¹İÈ¯ÇÑ´Ù.
-    Àü´Ş ÀÎÀÚ : ¾øÀ½
-    ¹İÈ¯ ÀÎÀÚ : EmploymentList::emplymentList
+    ï¿½Ô¼ï¿½ ï¿½Ì¸ï¿½ : EmploymentList::getEmploymentList()
+    ï¿½ï¿½ï¿½ : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ïµï¿½ ï¿½ï¿½ï¿½ Ã¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ñ´ï¿½.
+    ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ : ï¿½ï¿½ï¿½ï¿½
+    ï¿½ï¿½È¯ ï¿½ï¿½ï¿½ï¿½ : EmploymentList::emplymentList
 */
 vector<EmploymentList>* EmploymentList::getEmploymentList() {
     return &(EmploymentList::employmentList);
