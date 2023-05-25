@@ -59,7 +59,7 @@ EmploymentList EmploymentList::registerApply(string work, int applicationNum, st
 }
 
 /*
-    함수 이름 : EmploymentList::registerApply
+    함수 이름 : EmploymentList::getEmploymentList
     기능 : EmploymentList를 가져온다.
     전달 인자 : 없음
     반환 인자 : &employmentList
