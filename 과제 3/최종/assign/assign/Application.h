@@ -3,7 +3,13 @@
 #ifndef __APPLICATION__
 #define __APPLICATION__
 #include <vector>
+
 using namespace std;
+
+/*
+	클래스 이름 : Application
+	기능 : 일반회원이 지원한 회사 지원 클래스
+*/
 class Application {
 private:
     static vector<Application> applications;

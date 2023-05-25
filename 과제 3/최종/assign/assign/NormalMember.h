@@ -5,6 +5,13 @@
 #define __NORMALMEMBER__
 
 using namespace std;
+
+
+
+/*
+	클래스 이름 : NormalMember
+	기능 : 일반회원 클래스 (회원 클래스를 상속)
+*/
 class NormalMember : public Member {
 private:
     static vector<NormalMember> normalMembers;

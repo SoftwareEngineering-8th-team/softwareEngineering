@@ -6,7 +6,9 @@
 #include "file.h"
 #ifndef __NORMALSTATISTICQUERY__
 #define __NORMALSTATISTICQUERY__
+
 using namespace std;
+
 
 class NormalStatisticQuery{
 public:

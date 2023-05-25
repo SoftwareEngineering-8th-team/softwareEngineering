@@ -11,7 +11,10 @@ using namespace std;
 
 
 
-
+/*
+	클래스 이름 : Member
+	기능 : 회원 클래스
+*/
 class Member{
 private:
     string name;

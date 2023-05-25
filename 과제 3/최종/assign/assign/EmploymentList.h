@@ -3,7 +3,13 @@
 #include "CompanyMember.h"
 #ifndef __EMPLOYMENTLIST__
 #define __EMPLOYMENTLIST__
+
 using namespace std;
+
+/*
+	클래스 이름 : EmploymentList
+	기능 : 회사가 등록한 채용정보
+*/
 class EmploymentList {
 private:
     static vector<EmploymentList> employmentList;

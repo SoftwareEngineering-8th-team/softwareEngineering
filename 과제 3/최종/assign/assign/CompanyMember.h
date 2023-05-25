@@ -7,6 +7,11 @@
 #define __COMPANYMEMBER__
 using namespace std;
 
+
+/*
+	클래스 이름 : CompanyMember
+	기능 : 회사회원 클래스 (회원 클래스를 상속)
+*/
 class CompanyMember : public Member {
 private:
     static vector<CompanyMember> companyMembers;
