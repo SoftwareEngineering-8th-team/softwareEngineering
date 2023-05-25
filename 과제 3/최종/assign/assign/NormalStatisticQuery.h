@@ -11,7 +11,7 @@ using namespace std;
 
 /*
 	클래스 이름 : NormalStatisticQuery
-	기능 : 일반 회원이 본인이 지원한 정보를 출력하는 클래스
+	기능 : 일반 회원이 통계 조회하는 컨트롤 클래스
 */
 class NormalStatisticQuery{
 public:
@@ -20,7 +20,7 @@ public:
 
 /*
 	클래스 이름 : NormalStatisticQueryUI
-	기능 : 일반 회원이 본인이 지원한 정보를 출력하는 UI를 나타내는 클래스
+	기능 : 회사 회원이 통계 조회하는 바운더리 클래스
 */
 class NormalStatisticQueryUI{
 private:

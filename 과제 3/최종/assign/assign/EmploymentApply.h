@@ -12,7 +12,7 @@ class EmploymentApplyUI;
 
 /*
 	클래스 이름 : EmploymentApply
-	기능 : 채용 정보를 출력하고 지원할 수 있는 클래스
+	기능 : 채용 정보 지원하는 컨트롤 클래스
 */
 class EmploymentApply{
 private:
@@ -25,8 +25,8 @@ public:
 
 
 /*
-	클래스 이름 : Application
-	기능 : 채용 지원에 대한 UI를 출력하는 클래스
+	클래스 이름 : EmploymentApplyUI
+	기능 : 채용 정보 지원하는 바운더리 클래스
 */
 class EmploymentApplyUI{
 private:
