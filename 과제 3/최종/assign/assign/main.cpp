@@ -71,15 +71,15 @@ void doTask(){
                         else{
                             normalSignUpUI.signUp(name, number, id, password);
                         }
-                        break; // case 1: internal switch statement end
+                        break; 
                     }
                     case 2:
                     {
                         signoutUI.signout();
-                        break; // case 2: internal switch statement end
+                        break; 
                     }
                 }
-                break; // case 1: external switch statement end
+                break; 
             case 2:
                 switch (menu_level_2){
                     case 1: 
@@ -167,10 +167,10 @@ void doTask(){
                     is_program_exit = 1;
                     fprintf(out_fp,"6.1. 종료");
                 }
-                break; // case 6: external switch statement end
+                break; 
         }
 
-        // Termination condition
+     
         if (menu_level_1 == 6 && menu_level_2 == 1){
             is_program_exit = 1;
         }

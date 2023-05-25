@@ -3,7 +3,9 @@
 
 #include <iostream>
 #include <cstdio>
-
+/*
+전역 파일 구조체 in_fp, out_fp를 선언하였음 
+*/
 extern FILE* in_fp;
 extern FILE* out_fp;
 

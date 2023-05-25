@@ -9,10 +9,16 @@
 #define __APPLICATIONQUERY__
 using namespace std;
 
+/*
+    ApplicationQuery : 지원정보 조회 컨트롤 클래스
+*/
 class ApplicationQuery{
 public:
     vector<Application> getApplications();
 };
+/*
+    ApplicationQuery : 지원정보 조회 바운더리 클래스
+*/
 
 class ApplicationQueryUI{
 private:

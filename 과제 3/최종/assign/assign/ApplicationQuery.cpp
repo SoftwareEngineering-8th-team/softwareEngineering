@@ -1,10 +1,22 @@
 #include "ApplicationQuery.h"
 
+/*
+    함수 이름 : compareApplications
+    기능 : 지원 회사의 이름으로 지원을 오름차순으로 정렬하는 헬퍼 함수
+    전달 인자 : Application app1, Application app2
+    반환 인자 : boolean
+*/
 bool compareApplications(Application app1, Application app2) {
     return app1.getEmploymentList().getName() < app2.getEmploymentList().getName();
     
 }
 
+/*
+    함수 이름 : ApplicationQuery::getApplications
+    기능 : 자신이 지원한 정보를 불러오는 함수
+    전달 인자 : 없음
+    반환 인자 : vector<Application>
+*/
 vector<Application> ApplicationQuery::getApplications(){
         string id = g_loginInfo.id;
         vector<Application>* ret = Application::getApplications();
@@ -18,6 +30,14 @@ vector<Application> ApplicationQuery::getApplications(){
         
         return applications;
 }
+
+
+/*
+    함수 이름 : ApplicationQueryUI::getApplications
+    기능 : ApplicationQuery의 getApplications 함수를 호출하여 지원정보를 불러와 출력하는 함수
+    전달 인자 : 없음
+    반환 인자 : 없음
+*/
 
 void ApplicationQueryUI::getApplications(){
         vector<Application> applications = applicationQuery->getApplications();
