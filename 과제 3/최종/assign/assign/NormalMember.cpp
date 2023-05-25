@@ -5,11 +5,12 @@
 vector<NormalMember> NormalMember::normalMembers;
 
 /*
-	ÇÔ¼ö ÀÌ¸§ : NormalMember::newMember
-	±â´É : »õ·Î¿î ÀÏ¹İ À¯Àú¸¦ »ı¼ºÇÑ´Ù.
-	Àü´Ş ÀÎÀÚ : ÀÌ¸§, ÁÖ¹Î¹øÈ£, ¾ÆÀÌµğ, ÆĞ½º¿öµå
-	¹İÈ¯ ÀÎÀÚ : normalMember
+	í•¨ìˆ˜ ì´ë¦„ : NormalMember::newMember
+	ê¸°ëŠ¥ : ìƒˆë¡œìš´ ì¼ë°˜ ìœ ì €ë¥¼ ìƒì„±í•œë‹¤.
+	ì „ë‹¬ ì¸ì : ì´ë¦„, ì£¼ë¯¼ë²ˆí˜¸, ì•„ì´ë””, íŒ¨ìŠ¤ì›Œë“œ
+	ë°˜í™˜ ì¸ì : normalMember
 */
+
 NormalMember NormalMember::newMember(string name, int registrationNum, string id, string password) {
     NormalMember normalMember;
     normalMember.setName(name);
@@ -22,10 +23,10 @@ NormalMember NormalMember::newMember(string name, int registrationNum, string id
 
 
 /*
-	ÇÔ¼ö ÀÌ¸§ : NormalMember::getNormalMembers()
-	±â´É : normalMember¸¦ °¡Á®¿Â´Ù.
-	Àü´Ş ÀÎÀÚ : ¾øÀ½
-	¹İÈ¯ ÀÎÀÚ : normalMember::normalMembers
+	í•¨ìˆ˜ ì´ë¦„ : NormalMember::getNormalMembers()
+	ê¸°ëŠ¥ : normalMemberë¥¼ ê°€ì ¸ì˜¨ë‹¤.
+	ì „ë‹¬ ì¸ì : ì—†ìŒ
+	ë°˜í™˜ ì¸ì : normalMember::normalMembers
 */
 vector<NormalMember>* NormalMember::getNormalMembers() {
     return &(NormalMember::normalMembers);
@@ -33,10 +34,10 @@ vector<NormalMember>* NormalMember::getNormalMembers() {
 
 
 /*
-	ÇÔ¼ö ÀÌ¸§ : NormalMember::deleteMember
-	±â´É : ÀÏ¹İÀ¯Àú¸¦ »èÁ¦ÇÑ´Ù.
-	Àü´Ş ÀÎÀÚ : ¾ÆÀÌµğ
-	¹İÈ¯ ÀÎÀÚ : ¾øÀ½
+	í•¨ìˆ˜ ì´ë¦„ : NormalMember::deleteMember
+	ê¸°ëŠ¥ : ì¼ë°˜ìœ ì €ë¥¼ ì‚­ì œí•œë‹¤.
+	ì „ë‹¬ ì¸ì : ì•„ì´ë””
+	ë°˜í™˜ ì¸ì : ì—†ìŒ
 */
 void NormalMember::deleteMember(string id) {
     vector<NormalMember>* noMembers = NormalMember::getNormalMembers();

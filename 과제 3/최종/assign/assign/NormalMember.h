@@ -8,9 +8,10 @@ using namespace std;
 
 
 
+
 /*
-	Å¬·¡½º ÀÌ¸§ : NormalMember
-	±â´É : ÀÏ¹İÈ¸¿ø Å¬·¡½º (È¸¿ø Å¬·¡½º¸¦ »ó¼Ó)
+	í´ë˜ìŠ¤ ì´ë¦„ : NormalMember
+	ê¸°ëŠ¥ : ì¼ë°˜íšŒì› í´ë˜ìŠ¤ (íšŒì› í´ë˜ìŠ¤ë¥¼ ìƒì†)
 */
 class NormalMember : public Member {
 private:

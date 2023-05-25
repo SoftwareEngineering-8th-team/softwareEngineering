@@ -6,11 +6,12 @@ vector<CompanyMember> CompanyMember::companyMembers;
 
 
 /*
-	ÇÔ¼ö ÀÌ¸§ : CompanyMember::newMember
-	±â´É : »õ·Î¿î È¸»ç À¯Àú¸¦ »ı¼ºÇÑ´Ù.
-	Àü´Ş ÀÎÀÚ : È¸»çÀÌ¸§, »ç¾÷¹øÈ£, ¾ÆÀÌµğ, ÆĞ½º¿öµå
-	¹İÈ¯ ÀÎÀÚ : companyMember
+	í•¨ìˆ˜ ì´ë¦„ : CompanyMember::newMember
+	ê¸°ëŠ¥ : ìƒˆë¡œìš´ íšŒì‚¬ ìœ ì €ë¥¼ ìƒì„±í•œë‹¤.
+	ì „ë‹¬ ì¸ì : íšŒì‚¬ì´ë¦„, ì‚¬ì—…ë²ˆí˜¸, ì•„ì´ë””, íŒ¨ìŠ¤ì›Œë“œ
+	ë°˜í™˜ ì¸ì : companyMember
 */
+
 CompanyMember CompanyMember::newMember(string companyName, int businessNumber, string id, string password) {
     CompanyMember companyMember;
     companyMember.setName(companyName);
@@ -24,10 +25,10 @@ CompanyMember CompanyMember::newMember(string companyName, int businessNumber, s
 
 
 /*
-	ÇÔ¼ö ÀÌ¸§ : CompanyMember::getCompanyMembers()
-	±â´É : companyMember¸¦ °¡Á®¿Â´Ù.
-	Àü´Ş ÀÎÀÚ : ¾øÀ½
-	¹İÈ¯ ÀÎÀÚ : companyMember::companyMembers
+	í•¨ìˆ˜ ì´ë¦„ : CompanyMember::getCompanyMembers()
+	ê¸°ëŠ¥ : companyMemberë¥¼ ê°€ì ¸ì˜¨ë‹¤.
+	ì „ë‹¬ ì¸ì : ì—†ìŒ
+	ë°˜í™˜ ì¸ì : companyMember::companyMembers
 */
 vector<CompanyMember>* CompanyMember::getCompanyMembers() {
     return &companyMembers;
@@ -35,10 +36,10 @@ vector<CompanyMember>* CompanyMember::getCompanyMembers() {
 
 
 /*
-	ÇÔ¼ö ÀÌ¸§ : CompanyMember::deleteMember
-	±â´É : È¸»çÀ¯Àú¸¦ »èÁ¦ÇÑ´Ù.
-	Àü´Ş ÀÎÀÚ : ¾ÆÀÌµğ
-	¹İÈ¯ ÀÎÀÚ : ¾øÀ½
+	í•¨ìˆ˜ ì´ë¦„ : CompanyMember::deleteMember
+	ê¸°ëŠ¥ : íšŒì‚¬ìœ ì €ë¥¼ ì‚­ì œí•œë‹¤.
+	ì „ë‹¬ ì¸ì : ì•„ì´ë””
+	ë°˜í™˜ ì¸ì : ì—†ìŒ
 */
 void CompanyMember::deleteMember(string id) {
     vector<CompanyMember>* comMembers = getCompanyMembers();

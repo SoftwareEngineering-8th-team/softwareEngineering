@@ -7,8 +7,8 @@
 using namespace std;
 
 /*
-	Å¬·¡½º ÀÌ¸§ : EmploymentList
-	±â´É : È¸»ç°¡ µî·ÏÇÑ Ã¤¿ëÁ¤º¸
+   í´ë˜ìŠ¤ ì´ë¦„ : EmploymentList
+   ê¸°ëŠ¥ : íšŒì‚¬ê°€ ë“±ë¡í•œ ì±„ìš©ì •ë³´
 */
 class EmploymentList {
 private:

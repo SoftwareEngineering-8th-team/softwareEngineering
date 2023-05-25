@@ -9,8 +9,8 @@ using namespace std;
 
 
 /*
-	Å¬·¡½º ÀÌ¸§ : CompanyMember
-	±â´É : È¸»çÈ¸¿ø Å¬·¡½º (È¸¿ø Å¬·¡½º¸¦ »ó¼Ó)
+	í´ë˜ìŠ¤ ì´ë¦„ : CompanyMember
+	ê¸°ëŠ¥ : íšŒì‚¬íšŒì› í´ë˜ìŠ¤ (íšŒì› í´ë˜ìŠ¤ë¥¼ ìƒì†)
 */
 class CompanyMember : public Member {
 private:
