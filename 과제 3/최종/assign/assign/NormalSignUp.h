@@ -7,7 +7,7 @@ using namespace std;
 
 /*
 	클래스 이름 : NormalSignUp
-	기능 : 일반 회원이 로그인 정보를 등록하는 클래스
+	기능 : 일반 회원이 로그인 등록하는 컨트롤 클래스
 */
 class NormalSignUp{
 public:
@@ -16,7 +16,7 @@ public:
 
 /*
 	클래스 이름 : NormalSignUpUI
-	기능 : 일반 회원이 로그인 정보를 등록하는 UI를 나타내는 클래스
+	기능 : 일반 회원이 로그인 등록하는 바운더리 클래스
 */
 class NormalSignUpUI{
 private:
