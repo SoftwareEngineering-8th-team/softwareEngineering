@@ -6,8 +6,8 @@
 #define __APPLYCANCEL__
 
 /*
-    Å¬·¡½º ÀÌ¸§ : ApplyCancel
-    ±â´É : Áö¿øÃë¼Ò ±â´ÉÀÇ Control Å¬·¡½º
+    í´ë˜ìŠ¤ ì´ë¦„ : ApplyCancel
+    ê¸°ëŠ¥ : ì§€ì›ì·¨ì†Œ ê¸°ëŠ¥ì˜ Control í´ë˜ìŠ¤
 */
 class ApplyCancel{
 public:
@@ -15,8 +15,8 @@ public:
 };
 
 /*
-    Å¬·¡½º ÀÌ¸§ : ApplyCancelUI
-    ±â´É : Áö¿øÃë¼Ò ±â´ÉÀÇ Boundary Å¬·¡½º
+    í´ë˜ìŠ¤ ì´ë¦„ : ApplyCancelUI
+    ê¸°ëŠ¥ : ì§€ì›ì·¨ì†Œ ê¸°ëŠ¥ì˜ Boundary í´ë˜ìŠ¤
 */
 class ApplyCancelUI{
 private:
