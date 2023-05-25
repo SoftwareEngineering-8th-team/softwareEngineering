@@ -1,0 +1,122 @@
+[leejin_rho] Thu May 25 21:24:55 2023 +0900 diagram수정 160a5d0
+[심현섭] Thu May 25 21:23:32 2023 +0900 주석 정정 04b4dcd
+[fearlessdeveloper] Thu May 25 21:16:37 2023 +0900 수정 c029442
+[fearlessdeveloper] Thu May 25 21:15:02 2023 +0900 수정 7621c5f
+[심현섭] Thu May 25 21:13:42 2023 +0900 Update EmploymentList.cpp d061cf0
+[심현섭] Thu May 25 21:12:50 2023 +0900 Update EmploymentList.cpp 6325c82
+[심현섭] Thu May 25 21:10:23 2023 +0900 Update ApplicationQuery.h 86c6a2f
+[심현섭] Thu May 25 21:04:25 2023 +0900 사인.h 주석 수정 189e01c
+[심현섭] Thu May 25 21:03:18 2023 +0900 header 주석 정정 4207d2f
+[jmd5314] Thu May 25 20:57:26 2023 +0900 주석 추가 5b0872c
+[심현섭] Thu May 25 20:56:13 2023 +0900 통계 주석 수정 2c7d6b2
+[심현섭] Thu May 25 20:53:13 2023 +0900 Update NormalSignUp.h 4ca36ae
+[심현섭] Thu May 25 20:52:12 2023 +0900 안된 것들 추가 99e7907
+[심현섭] Thu May 25 20:49:20 2023 +0900 오류 수정 1b0c2de
+[fearlessdeveloper] Thu May 25 20:28:16 2023 +0900 수정 6c8aa4d
+[leejin_rho] Thu May 25 20:07:11 2023 +0900 entitiy class 주석 추가 0539346
+[심현섭] Thu May 25 00:33:49 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering dce0966
+[심현섭] Thu May 25 00:33:43 2023 +0900 design 수정 6379722
+[leejin_rho] Thu May 25 00:33:19 2023 +0900 requirementlist 72143b8
+[심현섭] Thu May 25 00:18:47 2023 +0900 design 정정 8462109
+[심현섭] Thu May 25 00:05:13 2023 +0900 Update 채용정보 등록.png 7f53308
+[심현섭] Thu May 25 00:01:39 2023 +0900 Update EmploymentList.cpp e81838a
+[심현섭] Wed May 24 23:57:58 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering 7e6a51e
+[심현섭] Wed May 24 23:57:50 2023 +0900 Update EmploymentApply.cpp 4892af4
+[심현섭] Wed May 24 23:57:46 2023 +0900 Update EmploymentRegister.cpp b34c164
+[leejin_rho] Wed May 24 23:54:29 2023 +0900 Update diagrams_assign3.mdj 92fc880
+[leejin_rho] Wed May 24 23:53:16 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering 8ddd131
+[심현섭] Wed May 24 23:41:09 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering 872e3e2
+[심현섭] Wed May 24 23:41:06 2023 +0900 채용정보 등록 추가 2c1cd83
+[leejin_rho] Wed May 24 23:39:10 2023 +0900 Update diagrams_assign3.mdj 53c6104
+[jmd5314] Wed May 24 23:35:04 2023 +0900 주석 ca3c2f2
+[jmd5314] Wed May 24 23:07:07 2023 +0900 . db5ec2e
+[심현섭] Wed May 24 22:21:07 2023 +0900 Update EmploymentQuery.cpp c013d55
+[jmd5314] Wed May 24 22:08:01 2023 +0900 코드 수정 30d11cd
+[jmd5314] Wed May 24 22:00:21 2023 +0900 코드 수정 49816df
+[leejin_rho] Wed May 24 21:24:10 2023 +0900 . 6d65a66
+[leejin_rho] Wed May 24 21:21:05 2023 +0900 주석추가 a344f44
+[jmd5314] Wed May 24 21:11:33 2023 +0900 함수 주석 추가 ab3df36
+[jmd5314] Wed May 24 19:39:50 2023 +0900 /utf-8 추가 91be90f
+[fearlessdeveloper] Wed May 24 17:30:59 2023 +0900 수정 503d6f9
+[fearlessdeveloper] Wed May 24 17:10:39 2023 +0900 추가 0a2b9ac
+[leejin_rho] Wed May 24 15:08:02 2023 +0900 Update main.cpp 5f36010
+[leejin_rho] Wed May 24 14:49:31 2023 +0900 . 76978e1
+[leejin_rho] Tue May 23 20:00:17 2023 +0900 . 86b589d
+[leejin_rho] Tue May 23 19:53:56 2023 +0900 . 8973c9f
+[leejin_rho] Tue May 23 19:48:40 2023 +0900 .. 904f4bc
+[leejin_rho] Tue May 23 19:13:13 2023 +0900 Create diagrams_assign3.mdj 1c2ae8d
+[심현섭] Tue May 23 19:10:56 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering 54ac205
+[심현섭] Tue May 23 19:10:53 2023 +0900 Create 채용정보조회(회사).png c03729d
+[fearlessdeveloper] Tue May 23 18:54:31 2023 +0900 업로드 af89d49
+[fearlessdeveloper] Tue May 23 18:49:29 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering 4b2f001
+[fearlessdeveloper] Tue May 23 18:49:21 2023 +0900 업로드 abc5a8f
+[leejin_rho] Tue May 23 18:48:31 2023 +0900 . 592ac83
+[leejin_rho] Tue May 23 18:44:19 2023 +0900 Create 소프트웨어 공학 과제3.pdf 08d2403
+[leejin_rho] Tue May 23 18:39:42 2023 +0900 diagrams b04eb42
+[jmd5314] Tue May 23 17:59:05 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering f9102c9
+[jmd5314] Tue May 23 17:58:45 2023 +0900 communication diagram 734f008
+[leejin_rho] Tue May 23 17:57:08 2023 +0900 Update Login.jpg 5a035fd
+[leejin_rho] Tue May 23 17:54:28 2023 +0900 communication_diagram dc70791
+[jmd5314] Tue May 23 17:28:42 2023 +0900 attribute 수정 6622760
+[jmd5314] Tue May 23 15:52:57 2023 +0900 오타 수정 8c1f671
+[심현섭] Tue May 23 15:47:41 2023 +0900 백업 완료 fb4a007
+[심현섭] Tue May 23 15:18:14 2023 +0900 잘못된 코드 정정 3b82f03
+[심현섭] Tue May 23 15:03:25 2023 +0900 과제3 백업 완료 baf7a7e
+[leejin_rho] Tue May 23 14:31:09 2023 +0900 . 63f8043
+[leejin_rho] Tue May 23 14:29:24 2023 +0900 Create diagrams_assign3.mdj 4475470
+[jmd5314] Tue May 23 12:01:33 2023 +0900 Communication Diagram, Class Diagram 270ca4e
+[fearlessdeveloper] Tue May 23 02:07:17 2023 +0900 일부수정 f612945
+[leejin_rho] Mon May 22 23:28:20 2023 +0900 Update main.cpp 7b7c574
+[fearlessdeveloper] Mon May 22 22:27:04 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering 03f31e5
+[fearlessdeveloper] Mon May 22 22:27:02 2023 +0900 구현완료 45f0b54
+[leejin_rho] Mon May 22 15:08:47 2023 +0900 Update main.cpp 8ddb89f
+[leejin_rho] Mon May 22 15:07:04 2023 +0900 input.txt 3a7e422
+[leejin_rho] Mon May 22 15:01:13 2023 +0900 main.cpp 4db8089
+[fearlessdeveloper] Mon May 22 04:02:08 2023 +0900 커밋 7da1121
+[leejin_rho] Sun May 21 00:09:03 2023 +0900 User_entities_header 4d227eb
+[leejin_rho] Fri May 19 04:28:27 2023 +0900 . 96e81b2
+[leejin_rho] Fri May 19 04:26:35 2023 +0900 requirementList+useCaseDescription 3ecbe8f
+[jmd5314] Wed May 10 19:45:37 2023 +0900 수정 524ed52
+[jmd5314] Wed May 10 19:44:34 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering 1183421
+[jmd5314] Wed May 10 19:44:16 2023 +0900 log 파일 77cce4f
+[leejin_rho] Wed May 10 19:42:25 2023 +0900 Delete log_output.txt d3e0db4
+[leejin_rho] Wed May 10 19:38:40 2023 +0900 과제2_최종 3d1c393
+[jmd5314] Wed May 10 19:28:50 2023 +0900 커뮤니케이션 다이어그램 수정 840a9a8
+[jmd5314] Wed May 10 19:23:43 2023 +0900 캡쳐본 수정 cc5bf0c
+[jmd5314] Wed May 10 19:23:18 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering 1d035dc
+[jmd5314] Wed May 10 19:03:34 2023 +0900 수정 47eea68
+[fearlessdeveloper] Wed May 10 18:54:07 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering 19e3248
+[fearlessdeveloper] Wed May 10 18:53:58 2023 +0900 과제업로드 eab9ce7
+[심현섭] Wed May 10 18:47:16 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering a85c7a4
+[심현섭] Wed May 10 18:46:51 2023 +0900 과제2 최종 업로드 973560b
+[fearlessdeveloper] Wed May 10 18:39:12 2023 +0900 Create log_output.txt 71dfffc
+[심현섭] Wed May 10 15:33:45 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering b8f8d36
+[심현섭] Wed May 10 15:33:43 2023 +0900 과제 업로드 dc9e79a
+[leejin_rho] Wed May 10 15:28:38 2023 +0900 Update Diagrams_Assign2.mdj cfff474
+[leejin_rho] Wed May 10 15:00:39 2023 +0900 diagramCapture 2ab08e1
+[leejin_rho] Wed May 10 14:48:56 2023 +0900 diagram 수정 810a94d
+[jmd5314] Wed May 10 14:20:45 2023 +0900 communication diagram 수정 5c377bf
+[jmd5314] Wed May 10 11:53:20 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering 91cd3cd
+[jmd5314] Wed May 10 11:53:11 2023 +0900 과제 업로드 66f158e
+[leejin_rho] Wed May 10 11:04:04 2023 +0900 . 2a9372d
+[leejin_rho] Wed May 10 03:53:06 2023 +0900 . d13b47f
+[심현섭] Tue May 9 21:46:37 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering b46821b
+[심현섭] Tue May 9 21:46:34 2023 +0900 개인 역할 분담 양도 8ef158f
+[fearlessdeveloper] Tue May 9 21:43:02 2023 +0900 과제업로드 91d3bd0
+[심현섭] Mon May 8 23:00:45 2023 +0900 개인 UseCaseDiagram, Description 9f4a0f0
+[심현섭] Thu May 4 19:22:00 2023 +0900 과제1 최종 정리 bcdbe4c
+[심현섭] Tue Apr 18 16:27:17 2023 +0900 정리 4283aac
+[심현섭] Mon Apr 10 19:22:17 2023 +0900 과제1 최종 정리 739c50c
+[심현섭] Mon Apr 10 18:10:28 2023 +0900 use case 수정 e36a090
+[leejin_rho] Mon Apr 10 18:07:13 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering 3664302
+[jmd5314] Mon Apr 10 17:52:58 2023 +0900 조믿음 과제 e283c22
+[leejin_rho] Mon Apr 10 17:11:26 2023 +0900 노이진 8f96125
+[fearlessdeveloper] Mon Apr 10 17:07:41 2023 +0900 Merge branch 'main' of https://github.com/SoftwareEngineering-8th-team/softwareEngineering b437532
+[fearlessdeveloper] Mon Apr 10 17:07:32 2023 +0900 푸쉬 b790922
+[jmd5314] Mon Apr 10 17:06:18 2023 +0900 조믿음 usecase diagram f2e1e54
+[심현섭] Mon Apr 10 16:48:35 2023 +0900 과제1 업로드 안된 것 정정 a417ede
+[심현섭] Mon Apr 10 15:50:16 2023 +0900 과제 1 정리 d569ebe
+[심현섭] Mon Apr 10 15:49:47 2023 +0900 과제 1 미완성 2b9a0cb
+[심현섭] Thu Apr 6 22:36:31 2023 +0900 회의록 업로드 d6d673b
+[심현섭] Thu Apr 6 22:25:16 2023 +0900 과제 업로드 e9a32bf
+[심현섭] Thu Apr 6 20:13:57 2023 +0900 Initial commit d960df9
