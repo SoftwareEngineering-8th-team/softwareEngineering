@@ -10,7 +10,7 @@ using namespace std;
 
 /*
 	클래스 이름 : CompanyStatisticQuery
-	기능 : 회사 통계 정보를 출력하는 클래스
+	기능 : 회사 회원이 등록한 모든 채용 정보에 대한 통계를 나타내는 클래스
 */
 class CompanyStatisticQuery{
 public:
@@ -19,7 +19,7 @@ public:
 
 /*
 	클래스 이름 : CompanyStatisticQueryUI
-	기능 : 회사 통계 정보를 받아 UI로 출력하는 클래스
+	기능 : 회사 회원이 등록한 모든 채용 정보에 대한 통계 UI를 나타내는 클래스
 */
 class CompanyStatisticQueryUI{
 private:
