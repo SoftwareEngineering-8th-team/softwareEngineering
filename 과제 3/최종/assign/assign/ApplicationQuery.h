@@ -16,10 +16,10 @@ class ApplicationQuery{
 public:
     vector<Application> getApplications();
 };
+
 /*
     ApplicationQuery : 지원정보 조회 바운더리 클래스
 */
-
 class ApplicationQueryUI{
 private:
     ApplicationQuery* applicationQuery = new ApplicationQuery();
