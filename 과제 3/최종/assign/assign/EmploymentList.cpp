@@ -59,10 +59,10 @@ EmploymentList EmploymentList::registerApply(string work, int applicationNum, st
 }
 
 /*
-    �Լ� �̸� : EmploymentList::getEmploymentList()
-    ��� : ���� ��ϵ� ��� ä�������� ��ȯ�Ѵ�.
-    ���� ���� : ����
-    ��ȯ ���� : EmploymentList::emplymentList
+    함수 이름 : EmploymentList::registerApply
+    기능 : EmploymentList를 가져온다.
+    전달 인자 : 없음
+    반환 인자 : &employmentList
 */
 vector<EmploymentList>* EmploymentList::getEmploymentList() {
     return &(EmploymentList::employmentList);
