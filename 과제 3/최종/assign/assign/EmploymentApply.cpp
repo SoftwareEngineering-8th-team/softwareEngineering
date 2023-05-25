@@ -5,7 +5,7 @@
     함수 이름 : compareEmploymentList
     기능 : EmploymentList에 있는 회사 이름을 오름차순으로 반환한다.
     전달 인자 : emp1, emp2
-    반환 인자 : 회사 이름 오름차순
+    반환 인자 : bool
 */
 bool compareEmploymentList(EmploymentList emp1, EmploymentList emp2)
 {
