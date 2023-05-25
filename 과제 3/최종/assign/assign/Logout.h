@@ -10,14 +10,20 @@ using namespace std;
 
 
 
-
-class Logout { // 컨트롤 클래스
+/*
+	클래스 이름 : Logout
+	기능 : 로그아웃 컨트롤 클래스
+*/
+class Logout {
 public:
     string logout();
 };
 
-
-class LogoutUI { // 바운더리 클래스
+/*
+	클래스 이름 : LogoutUI
+	기능 : 로그아웃 바운더리 클래스
+*/
+class LogoutUI {
 private:
     Logout* logoutCtrl = new Logout();
 

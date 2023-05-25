@@ -10,7 +10,8 @@
 using namespace std;
 
 /*
-    ApplicationQuery : 지원정보 조회 컨트롤 클래스
+    클래스 이름 : ApplicationQuery
+    기능 : 지원정보 조회 컨트롤 클래스
 */
 class ApplicationQuery{
 public:
@@ -18,7 +19,8 @@ public:
 };
 
 /*
-    ApplicationQuery : 지원정보 조회 바운더리 클래스
+    클래스 이름 : ApplicationQueryUI
+    기능 : 지원정보 조회 바운더리 클래스
 */
 class ApplicationQueryUI{
 private:

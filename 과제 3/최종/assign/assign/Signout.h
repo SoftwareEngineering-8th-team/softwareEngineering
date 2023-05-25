@@ -5,22 +5,27 @@
 #ifndef __SIGNOUT__
 #define __SIGNOUT__
 
-class Signout{
-
+/*
+  클래스 이름 : Signout
+  기능 : 회원탈퇴 컨트롤 클래스
+*/
+class Signout
+{
 public:
-    string deleteMember();
+  string deleteMember();
 };
 
-class SignoutUI{
+/*
+  클래스 이름 : SignoutUI
+  기능 : 회원탈퇴 바운더리 클래스
+*/
+class SignoutUI
+{
 private:
-    Signout* signoutCtrl = new Signout();
-    
+  Signout *signoutCtrl = new Signout();
 
 public:
-    void signout();
+  void signout();
 };
-
-
-
 
 #endif
